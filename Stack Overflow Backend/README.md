@@ -3,6 +3,14 @@
 This folder contains my submission for Problem Statement 3 - Stack Overflow.
 I had modified the given problem statement and had added some other features.
 
+## Setup:
+1. Open the `app.js` file.
+2. Add a MongoDB database connection URI string to `db_url` variable.  
+
+You can use local as well as cloud server for database.
+
+NOTE: While using MongoDB Cloud, make sure that the cluster allows connections from any external IP address.
+
 ## Models:
 ### 1. userModel:
   ```
