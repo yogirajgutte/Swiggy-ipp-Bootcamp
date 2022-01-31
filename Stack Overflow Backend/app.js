@@ -9,8 +9,10 @@ var questionsRouter = require("./routes/questionsRoute");
 var answersRouter = require("./routes/answersRoute");
 // database dependency
 var mongoose = require("mongoose");
-let db_url =
-  "mongodb+srv://yogirajgutte:yogirajgutte@cluster0.y4mvw.mongodb.net/StackOverflow?retryWrites=true&w=majority";
+
+// db_url is a string that contains the database connection URI.
+// Either use the local server or remote server (mongodb cloud).
+let db_url = "<Type your MongoDB connection URI here>";
 
 var app = express();
 
